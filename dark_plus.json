@@ -1,0 +1,262 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark+ (default dark)",
+	"include": "./dark_vs.json",
+	"colors": {
+		"dropdown.background": "#414339",
+		"list.activeSelectionBackground": "#1f9f2a",
+		"list.focusBackground": "#414339",
+		"dropdown.listBackground": "#1e1f1c",
+		"settings.textInputBackground": "#32342d",
+		"settings.numberInputBackground": "#32342d",
+		"list.inactiveSelectionBackground": "#414339",
+		"list.hoverBackground": "#3e3d32",
+		"list.dropBackground": "#414339",
+		"list.highlightForeground": "#f8f8f2",
+		"button.background": "#75715E",
+		"editor.background": "#0f0f0f",
+		"editor.foreground": "#f8f8f2",
+		"selection.background": "#ccccc7",
+		"editor.selectionHighlightBackground": "#6a6a9680",
+		"editor.selectionBackground": "#c01414",
+		"editor.wordHighlightBackground": "#4a4a7680",
+		"editor.wordHighlightStrongBackground": "#6a6a9680",
+		"editor.lineHighlightBackground": "#3e3d32",
+		"editorLineNumber.activeForeground": "#c2c2bf",
+		"editorCursor.foreground": "#f8f8f0",
+		"editorWhitespace.foreground": "#464741",
+		"editorIndentGuide.background": "#464741",
+		"editorIndentGuide.activeBackground": "#767771",
+		"editorGroupHeader.tabsBackground": "#1e1f1c",
+		"editorGroup.dropBackground": "#41433980",
+		"tab.inactiveBackground": "#34352f", //"#34352f",
+		"tab.activeBackground": "#17134a", //"#34352f",
+		"tab.activeForeground": "#ffffff", //"#34352f",
+		"tab.border": "#30302f",
+		"tab.modifiedBorder": "#007acc",
+		"tab.inactiveForeground": "#ccccc7", // needs to be bright so it's readable when another editor group is focused
+		"widget.shadow": "#000000",
+		"progressBar.background": "#75715E",
+		"badge.background": "#75715E",
+		"badge.foreground": "#f8f8f2",
+		"editorLineNumber.foreground": "#90908a",
+		"panelTitle.activeForeground": "#ffffff",
+		"panelTitle.activeBorder": "#c4c3c3",
+		"panelTitle.inactiveForeground": "#75715E",
+		"panel.border": "#414339",
+		"titleBar.activeBackground": "#1e1f1c",
+		"statusBar.background": "#211848",
+		"statusBar.noFolderBackground": "#414339",
+		"statusBar.debuggingBackground": "#75715E",
+		"activityBar.background": "#211848",
+		"activityBar.foreground": "#74ff79",
+		"activityBar.dropBackground": "#414339",
+		"sideBar.background": "#1e1f1c",
+		"sideBarSectionHeader.background": "#272822",
+		"menu.background": "#1e1f1c",
+		"menu.foreground": "#cccccc",
+		"pickerGroup.foreground": "#75715E",
+		"input.background": "#414339",
+		"inputOption.activeBorder": "#75715E",
+		"focusBorder": "#75715E",
+		"editorWidget.background": "#1e1f1c",
+		"debugToolBar.background": "#1e1f1c",
+		"diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
+		"diffEditor.removedTextBackground": "#90274A80", // middle of #272822 and #f92672
+		"inputValidation.errorBackground": "#90274A", // middle of #272822 and #f92672
+		"inputValidation.errorBorder": "#f92672",
+		"inputValidation.warningBackground": "#848528", // middle of #272822 and #e2e22e
+		"inputValidation.warningBorder": "#e2e22e",
+		"inputValidation.infoBackground": "#546190", // middle of #272822 and #819aff
+		"inputValidation.infoBorder": "#819aff",
+		"editorHoverWidget.background": "#414339",
+		"editorHoverWidget.border": "#75715E",
+		"editorSuggestWidget.background": "#272822",
+		"editorSuggestWidget.border": "#75715E",
+		"editorGroup.border": "#34352f",
+		"peekView.border": "#75715E",
+		"peekViewEditor.background": "#272822",
+		"peekViewResult.background": "#1e1f1c",
+		"peekViewTitle.background": "#1e1f1c",
+		"peekViewResult.selectionBackground": "#414339",
+		"peekViewResult.matchHighlightBackground": "#75715E",
+		"peekViewEditor.matchHighlightBackground": "#75715E",
+		"terminal.ansiBlack": "#333333",
+		"terminal.ansiRed": "#350113", // the bright color with ~75% transparent on the background
+		"terminal.ansiGreen": "#86B42B",
+		"terminal.ansiYellow": "#B3B42B",
+		"terminal.ansiBlue": "#6A7EC8",
+		"terminal.ansiMagenta": "#8C6BC8",
+		"terminal.ansiCyan": "#56ADBC",
+		"terminal.ansiWhite": "#e3e3dd",
+		"terminal.ansiBrightBlack": "#666666",
+		"terminal.ansiBrightRed": "#f92672",
+		"terminal.ansiBrightGreen": "#A6E22E",
+		"terminal.ansiBrightYellow": "#e2e22e", // hue shifted #A6E22E
+		"terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
+		"terminal.ansiBrightMagenta": "#AE81FF",
+		"terminal.ansiBrightCyan": "#66D9EF",
+		"terminal.ansiBrightWhite": "#f8f8f2"
+	},
+	"tokenColors": [
+		{
+			"name": "Function declarations",
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"support.constant.handlebars"
+			],
+			"settings": {
+				"foreground": "#DCDCAA"
+			}
+		},
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"meta.return-type",
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.name.class",
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs",
+				"storage.type.annotation.java",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "Types declaration and references, TS grammar specific",
+			"scope": [
+				"meta.type.cast.expr",
+				"meta.type.new.expr",
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "Control flow keywords",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"name": "Variable and parameter name",
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "Object keys, TS grammar specific",
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "CSS property value",
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "#CE9178"
+			}
+		},
+		{
+			"name": "Regular expression groups",
+			"scope": [
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.assertion.regexp",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.character.set.begin.regexp",
+				"punctuation.character.set.end.regexp",
+				"keyword.operator.negation.regexp",
+				"support.other.parenthesis.regexp"
+			],
+			"settings": {
+				"foreground": "#CE9178"
+			}
+		},
+		{
+			"scope": [
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp"
+			],
+			"settings": {
+				"foreground": "#d16969"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.or.regexp",
+				"keyword.control.anchor.regexp"
+			],
+			"settings": {
+				"foreground": "#DCDCAA"
+			}
+		},
+		{
+			"scope": "keyword.operator.quantifier.regexp",
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"scope": "constant.character",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		}
+	]
+}
